@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Microverse Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form by Kalumuna and Kehinde</p>
+
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+      <label for="email" id="email-label">Email</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email address">
+      <label for="name" id="number-label">Age</label>
+      <input type="text" id="number" name="number" min="18" max="40"placeholder="Enter your age">
+      <label for="name">Which best describe you</label>
+      <select id="dropdown">
+        <option value="">--Select--</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="investor">Investor</option>
+      </select>
+
+      <label for="recommed-2">Relationship Status</label>
+      <input type="radio" id="radio" name="recommended">Married</input>
+      <input type="radio" id="radio" name="recommended">Single</input>
+      <input type="radio" id="radio" name="recommended">Divorced</input>
+
+      <label for="recommed-2">Sports Engaged in</label>
+      <input type="checkbox" id="checkbox" name="recommended" value="1">Football</input>
+      <input type="checkbox" id="checkbox" name="recommended" value="2">Basketball</input>
+      <input type="checkbox" id="checkbox" name="recommended" value="3">Tennis</input>
+      <input type="checkbox" id="checkbox" name="recommended" value="4">Rugby</input>
+      <label for="comments">Additional comments</label>
+      <textarea id="comments" name="comments"> </textarea>
+      <button>Submit</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>

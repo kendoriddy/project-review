@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: skyblue;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute; */
+}
+
+form {
+  background-color: white;
+  max-width: 500px;
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px black;
+}
+
+label {
+  text-align: left;
+  display: block;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+#dropdown {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#radio {
+  display: inline-block;
+  width: auto;
+}
+
+#checkbox {
+  display: inline-block;
+  width: auto;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  border-radius: 1px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  height: 35px;
+  background-color: skyblue;
+}
